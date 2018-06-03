@@ -332,7 +332,7 @@ global proc openPipeline()
 {
 	//the following two lines are edited by the script whenever the user changes the Script Path or the Project File Path
 	global string $openPipeline_scriptPath = "C:/Users/ken/OneDrive/Documents/maya/2018/scripts/";
-	global string $openPipeline_projectFilePath = "//ripper/greendonkey/projects";
+	global string $openPipeline_projectFilePath = "E:/projects";
     string $scriptsFolderName = "openPipeline";
     //Check if the paths are valid
     if ((!endsWith($openPipeline_scriptPath,"/"))&&(size($openPipeline_scriptPath)))
