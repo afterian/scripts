@@ -34,7 +34,8 @@ add nurb sphere upgrade.
 #version .11 added alpha counter functionality to the other items.
 #version .12 Xml,
 #version .13 fixing bug on xml going past 11.
-#version.4 randy ass
+#version. 14 randy ass
+#version .15 icons and visual candy
 
 #defining global vars, I would like to find a better way to do this.
 curvesel = ""
@@ -118,7 +119,7 @@ def cvaUI():
     mainLayout = cmds.columnLayout("mainColumn", w =350, h = 700)
     #banner image
     cmds.image(w = 350, h =60, image = imagePathBanner)
-    cmds.separator(h=40)
+    cmds.separator(h=20)
     cmds.textField("cvaNametx",en = False, text = "NO CVA ASSIGNED", w= 360)
     #feedback
     cmds.columnLayout( "mainColumn", adjustableColumn = True)
